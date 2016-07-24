@@ -1,0 +1,54 @@
+/* add your CSS here */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(1,1,1,0.05);
+}
+
+.container {
+    width: 300px;
+    margin: 30px auto;
+}
+
+.header {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+
+
+.card {
+    background: white;
+    box-shadow: rgba(1,1,1,0.06) 0 0 3px 2px, rgba(1,1,1,0.12) 0 0 3px 3px;
+    padding: 25px;
+}
+
+.bordered {
+    border: 1px solid rgba(128, 128, 128, 0.58);
+}
+
+.points {
+    list-style-type: none;
+}
+
+.content {
+    padding: 3%;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.content p,ul {
+    margin-bottom: 15px;
+}
+
+.content-summary {
+    font-style: italic;
+}
